@@ -62,114 +62,111 @@ export function createEntryReport(report: BenchmarkReport) {
  * @param surname - The surname of the new user.
  * @param loginCredentials - The login credentials for the new user.
  */
-export async function createUser(
-  adminUser: ApiUser,
-  name: string,
-  surname: string,
-  loginCredentials: string
-) {
-  try {
-    const response = await adminUser.post(
-      "/auth/admin/users",
-      {
-        name: name,
-        surname: surname,
-        salutation: "-",
-        login: loginCredentials,
-        password: "Passwort14!",
-        roles: ["employee"],
-        facility: null,
-        activities: ["1", "2", "3", "4", "5"],
-        qualifications: ["3", "2", "1"],
-      },
-      5000
-    );
-    const responseJson = await response.json();
+// export async function createUser(
+//   adminUser: ApiUser,
+//   name: string,
+//   surname: string,
+//   loginCredentials: string
+// ) {
+//   try {
+//     const response = await adminUser.post(
+//       "/auth/admin/users",
+//       {
+//         name: name,
+//         surname: surname,
+//         salutation: "-",
+//         login: loginCredentials,
+//         password: "Passwort14!",
+//         roles: ["employee"],
+//         facility: null,
+//         activities: ["1", "2", "3", "4", "5"],
+//         qualifications: ["3", "2", "1"],
+//       },
+//       5000
+//     );
+//     const responseJson = await response.json();
 
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
+//     if (!response.ok) {
+//       throw new Error(`HTTP error! Status: ${response.status}`);
+//     }
 
-    const payload = {
-      id: "",
-      topics: [
-        {
-          topic_id: "68126602-156b-464b-b188-edd32ecfee48",
-          trainings: [
-            { training_id: "21" },
-            { training_id: "dd760753-438c-4673-b7a7-1a177e34fa43" },
-            { training_id: "5" },
-            { training_id: "19" },
-            { training_id: "6" },
-            { training_id: "22" },
-            { training_id: "20" },
-          ],
-        },
-        {
-          topic_id: "59a9b42d-cae1-42ba-9904-c6b144f9d192",
-          trainings: [
-            { training_id: "5ad0be2b-2f72-4e38-a87b-a0dbd7e5c009" },
-            { training_id: "a9c754ea-72db-46af-a415-95936d870912" },
-            { training_id: "75265408-a462-40bb-bd8a-7c62d2fe4aa4" },
-            { training_id: "fec8c1f6-cd16-4f04-9e54-c2c1094d671a" },
-            { training_id: "68c0e961-53b1-45a8-9abe-4e2539a5036a" },
-          ],
-        },
-      ],
-      user_id: responseJson.id,
-    };
+//     const payload = {
+//       id: "",
+//       topics: [
+//         {
+//           topic_id: "68126602-156b-464b-b188-edd32ecfee48",
+//           trainings: [
+//             { training_id: "21" },
+//             { training_id: "dd760753-438c-4673-b7a7-1a177e34fa43" },
+//             { training_id: "5" },
+//             { training_id: "19" },
+//             { training_id: "6" },
+//             { training_id: "22" },
+//             { training_id: "20" },
+//           ],
+//         },
+//         {
+//           topic_id: "59a9b42d-cae1-42ba-9904-c6b144f9d192",
+//           trainings: [
+//             { training_id: "5ad0be2b-2f72-4e38-a87b-a0dbd7e5c009" },
+//             { training_id: "a9c754ea-72db-46af-a415-95936d870912" },
+//             { training_id: "75265408-a462-40bb-bd8a-7c62d2fe4aa4" },
+//             { training_id: "fec8c1f6-cd16-4f04-9e54-c2c1094d671a" },
+//             { training_id: "68c0e961-53b1-45a8-9abe-4e2539a5036a" },
+//           ],
+//         },
+//       ],
+//       user_id: responseJson.id,
+//     };
 
-    await adminUser.post("/filter/admin/trainingsmatrix", payload, 5000);
+//     await adminUser.post("/filter/admin/trainingsmatrix", payload, 5000);
 
-    return { loginCredentials: loginCredentials, password: "Passwort14!" };
-  } catch (error) {
-    console.error("Error:", error);
-  }
-}
+//     return { loginCredentials: loginCredentials, password: "Passwort14!" };
+//   } catch (error) {
+//     console.error("Error:", error);
+//   }
+// }
 //TODO username entsprichte auch den run
 export async function setTasks(
   reporter: Reporter,
   config: Config,
   dokumentationData: Topic,
   APIPathToQuestion: string,
-  users: ApiUser[],
-  adminUser?: ApiUser
+  users: ApiUser[]
+  // adminUser?: ApiUser
 ) {
-  let userCreated = true;
-  if (config.createNewWorkers && userCreated) {
-    for (let i = 0; i < config.num_workers[0]; i++) {
-      const report = reporter.outputReport();
-      const generatedUsers = await createUser(
-        adminUser!,
-        "SURNAME IS UUID OF TESTRUN PERFORMANCETEST",
-        report.uuid,
-        `${report.uuid}-${i}`
-      );
-
-      if (generatedUsers) {
-        const newApiUser: ApiUser = new ApiUser(
-          config.url,
-          generatedUsers.loginCredentials
-        );
-
-        try {
-          await newApiUser.login(
-            generatedUsers.loginCredentials,
-            generatedUsers.password,
-            config.fetchTimeoutInMs
-          );
-
-          users.push(newApiUser);
-          userCreated = false;
-        } catch (error) {
-          console.error("Failed to log in user:", error);
-          // Handle error appropriately, e.g., retry, log, or throw
-        }
-      } else {
-        throw new Error("Failed to generate users.");
-      }
-    }
-  }
+  // let userCreated = true;
+  // if (config.createNewWorkers && userCreated) {
+  //   // for (let i = 0; i < config.num_workers[0]; i++) {
+  //   //   const report = reporter.outputReport();
+  //   //   // const generatedUsers = await createUser(
+  //   //   //   adminUser!,
+  //   //   //   "SURNAME IS UUID OF TESTRUN PERFORMANCETEST",
+  //   //   //   report.uuid,
+  //   //   //   `${report.uuid}-${i}`
+  //   //   // );
+  //   //   if (generatedUsers) {
+  //   //     const newApiUser: ApiUser = new ApiUser(
+  //   //       config.url,
+  //   //       generatedUsers.loginCredentials
+  //   //     );
+  //   //     try {
+  //   //       await newApiUser.login(
+  //   //         generatedUsers.loginCredentials,
+  //   //         generatedUsers.password,
+  //   //         config.fetchTimeoutInMs
+  //   //       );
+  //   //       users.push(newApiUser);
+  //   //       userCreated = false;
+  //   //     } catch (error) {
+  //   //       console.error("Failed to log in user:", error);
+  //   //       // Handle error appropriately, e.g., retry, log, or throw
+  //   //     }
+  //   //   } else {
+  //   //     throw new Error("Failed to generate users.");
+  //   //   }
+  //   // }
+  // }
   await Promise.all(
     config.tasks.map(async (task) => {
       if ("measureTTFB" in task) {

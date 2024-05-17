@@ -34,6 +34,11 @@
       "CheckTrainingTopics": {
         "num_attempts": 1
       }
+    },
+    {
+      "measureTTFB": {
+        "num_attempts": 1
+      }
     }
   ],
   "adminUser": {

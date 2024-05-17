@@ -107,7 +107,7 @@ export class QuizApi {
     const infoActualQuestion = await promise;
     this.reporter.addMeasurement(this.apiUser.uuid, {
       ident: questionnaireIdent,
-      description: "getQuestion",
+      description: "GetRequest actual questions",
       timings,
     });
 
@@ -144,7 +144,7 @@ export class QuizApi {
 
       this.reporter.addMeasurement(this.apiUser.uuid, {
         ident: null!,
-        description: "getQuestion info training certificate all users",
+        description: "GetRequest info training certificate all users",
         timings: postTimings,
       });
 
@@ -176,7 +176,7 @@ export class QuizApi {
       );
       this.reporter.addMeasurement(this.apiUser.uuid, {
         ident: null!,
-        description: "getQuestion info specific training certificate all users",
+        description: "GetRequest info specific training certificate all users",
         timings: postTimings,
       });
       const _res = await promise;
@@ -259,7 +259,7 @@ export class QuizApi {
 
       this.reporter.addMeasurement(this.apiUser.uuid, {
         ident: fetchedQuestionaireData.$ident,
-        description: "postAnswer",
+        description: "PostRequest with checked answers",
         timings: postTimings,
       });
       const _res = await promise;

@@ -6,15 +6,12 @@ flags:
 -p path to training ,look example
 -c path to config.ts
 
-//TODO automatisch abweichende werte anzeigen lassen
-
-plotten in vorhandenes projekt übertragen(Schwierigkeit deno und node zu verbinden)
+jonathan maximale abweichung innerhalb der runs prozentual (wird in der config eingestellt) und während der auswertung angezeigen
+jonathan plotten in vorhandenes projekt übertragen(Schwierigkeit deno und node zu verbinden)
 <https://entwickler.de/javascript/deno-node-javascript-framework-npm>
 
-maximale abweichung innerhalb der runs prozentual (wird in der config eingestellt) und während der auswertung angezeigen
-
-abläufe im zusammenhang mit adminaccoutns auskommentieren und passwörter/ usernames als undefined
-
-gesammtes projekt nach passwörten absuchen
+hubert mehrere reports gleichzeitig generieren lassen
+hubert abläufe im zusammenhang mit adminaccoutns auskommentieren und passwörter/ usernames als undefined hubert
+hubert gesammtes projekt nach passwörten absuchen
 
 halbwegs akzeptable tests schreiben

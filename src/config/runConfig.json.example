@@ -1,9 +1,18 @@
 {
   "url": "https://preview.carely-app.de",
   "fetchTimeoutInMs": 10000,
-  "num_workers": 1,
-  "createNewWorkers": true,
+  "num_workers": [
+    2,
+    4
+  ],
+  "createNewWorkers": false,
+  "allowedDeviationPercentBetweenRuns": 20,
   "tasks": [
+    {
+      "measureTTFB": {
+        "num_attempts": 1
+      }
+    },
     {
       "CheckTrainingTopics": {
         "num_attempts": 1
@@ -18,55 +27,59 @@
     {
       "submitQuestionAndMeasureTime": {
         "probabilityOfAnsweringWrong": 100,
-        "num_attempts": 1
+        "num_attempts": 3
       }
     },
     {
       "CheckTrainingTopics": {
         "num_attempts": 1
       }
-    }
+    },{
+      "measureTTFB": {
+        "num_attempts": 1
+      }
+    },
   ],
   "adminUser": {
-    "login": "DemTes",
-    "password": "WurstWasser14!"
+    "login": "undefined",
+    "password": "undefined"
   },
   "users": [
     {
-      "login": "DemTes1",
-      "password": "WurstWasser14!"
+      "login": "testUser1",
+      "password": "XQ92V2v&"
     },
     {
-      "login": "DemTes8",
-      "password": "WurstWasser14!"
+      "login": "testUser2",
+      "password": "XQ92V2v&"
     },
     {
-      "login": "DemTes12",
-      "password": "WurstWasser14!"
+      "login": "testUser3",
+      "password": "XQ92V2v&"
     },
     {
-      "login": "DemTes7",
-      "password": "WurstWasser14!"
+      "login": "testUser4",
+      "password": "XQ92V2v&"
     },
     {
-      "login": "DemTes3",
-      "password": "WurstWasser14!"
+      "login": "testUser5",
+      "password": "XQ92V2v&"
     },
     {
-      "login": "DemTes6",
-      "password": "WurstWasser14!"
+      "login": "testUser6",
+      "password": "XQ92V2v&"
     },
     {
-      "login": "DemTes4",
-      "password": "WurstWasser14!"
+      "login": "testUser7",
+      "password": "XQ92V2v&"
     },
     {
-      "login": "DemTes5",
-      "password": "WurstWasser14!"
+      "login": "testUser8",
+      "password": "XQ92V2v&"
     },
     {
-      "login": "asdf",
-      "password": "3JQ3$g08"
+      "login": "testUser9",
+      "password": "XQ92V2v&"
     }
   ]
 }
