@@ -1,0 +1,72 @@
+{
+  "url": "https://preview.carely-app.de",
+  "fetchTimeoutInMs": 10000,
+  "num_workers": 1,
+  "createNewWorkers": true,
+  "tasks": [
+    {
+      "CheckTrainingTopics": {
+        "num_attempts": 1
+      }
+    },
+    {
+      "CheckSpecificTrainingProgress": {
+        "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+        "num_attempts": 1
+      }
+    },
+    {
+      "submitQuestionAndMeasureTime": {
+        "probabilityOfAnsweringWrong": 100,
+        "num_attempts": 1
+      }
+    },
+    {
+      "CheckTrainingTopics": {
+        "num_attempts": 1
+      }
+    }
+  ],
+  "adminUser": {
+    "login": "DemTes",
+    "password": "WurstWasser14!"
+  },
+  "users": [
+    {
+      "login": "DemTes1",
+      "password": "WurstWasser14!"
+    },
+    {
+      "login": "DemTes8",
+      "password": "WurstWasser14!"
+    },
+    {
+      "login": "DemTes12",
+      "password": "WurstWasser14!"
+    },
+    {
+      "login": "DemTes7",
+      "password": "WurstWasser14!"
+    },
+    {
+      "login": "DemTes3",
+      "password": "WurstWasser14!"
+    },
+    {
+      "login": "DemTes6",
+      "password": "WurstWasser14!"
+    },
+    {
+      "login": "DemTes4",
+      "password": "WurstWasser14!"
+    },
+    {
+      "login": "DemTes5",
+      "password": "WurstWasser14!"
+    },
+    {
+      "login": "asdf",
+      "password": "3JQ3$g08"
+    }
+  ]
+}
