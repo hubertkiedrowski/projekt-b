@@ -21,7 +21,7 @@ post      erledigt
 config.ts erledigt
 settasks         reicht wenn man testet das die ifs passen, recht ergibt sich aus halbwegs aus
 getTraininginfoSpecificTopic
-getQuestion
+getQuestion erledigt 
 submitQuestion
 interfaces.ts
 
