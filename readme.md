@@ -10,8 +10,4 @@ jonathan maximale abweichung innerhalb der runs prozentual (wird in der config e
 jonathan plotten in vorhandenes projekt übertragen(Schwierigkeit deno und node zu verbinden)
 <https://entwickler.de/javascript/deno-node-javascript-framework-npm>
 
-hubert mehrere reports gleichzeitig generieren lassen
-hubert abläufe im zusammenhang mit adminaccoutns auskommentieren und passwörter/ usernames als undefined hubert
-hubert gesammtes projekt nach passwörten absuchen
-
 halbwegs akzeptable tests schreiben
