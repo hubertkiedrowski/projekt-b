@@ -187,14 +187,14 @@ Deno.test("get should fetch data from the API", async () => {
   assertEquals(jsonResponse, expectedData);
 });
 
-const payload = {
-  finished: null,
-  answers_correct: true,
-  explanation:
-    "Elektrische Geräte müssen regelmäßig geprüft werden. \u003cb\u003eSpätestens nach 12 Monaten.\u003c/b\u003e",
-  hint: "",
-  count: 1,
-};
+// const payload = {
+//   finished: null,
+//   answers_correct: true,
+//   explanation:
+//     "Elektrische Geräte müssen regelmäßig geprüft werden. \u003cb\u003eSpätestens nach 12 Monaten.\u003c/b\u003e",
+//   hint: "",
+//   count: 1,
+// };
 
 // Deno.test("post should send data to the API", async () => {
 //   const apiHost = "https://preview.carely-app.de";
