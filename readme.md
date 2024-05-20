@@ -8,6 +8,7 @@ flags:
 
 jonathan maximale abweichung innerhalb der runs prozentual (wird in der config eingestellt) und während der auswertung angezeigen
 
+
 Testen:
 
 Helper:
@@ -25,7 +26,7 @@ createEntryReport
 
 settasks         reicht wenn man testet das die ifs passen, recht ergibt sich aus halbwegs aus dem rest
 getTraininginfoSpecificTopic
-getQuestion
+getQuestion       erledigt 
 submitQuestion
 
-copilot kann die grundstruktur ziemlich gut generieren
+
