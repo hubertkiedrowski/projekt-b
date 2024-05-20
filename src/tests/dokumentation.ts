@@ -1,0 +1,776 @@
+export const dokumentationData = {
+  id: "26408628-a743-4f28-9d36-e4f7b4bcf636",
+  topic_id: "c6906727-fbd8-419a-809e-4a24de352d0d",
+  name: "Dokumentation",
+  icon: "basics_doku",
+  valid_for: "6 months",
+  questionnaires: [
+    {
+      id: "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+      name: "Strukturierte Informationssammlung SIS",
+      qualification_ids: null,
+      questions: [
+        {
+          id: "9bd5af42-f837-4122-a3a8-b707895acd70",
+          text: "Was ist das neue Strukturmodell und die SIS?",
+          explanation:
+            "<p>Die SIS = Strukturierte Informationssammlung ist ein Bestandteils des neuen Strukturmodells und <strong>soll die Dokumentation in der Pflege einfacher machen.</strong></p>",
+          media: null,
+          hint: null,
+          answers: [
+            {
+              id: "9bd5af42-f837-4122-a3a8-b707895acd70-0",
+              text: "Eine Möglichkeit, die Pflegedokumentation einfacher zu machen.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "One way to make nursing documentation easier.",
+                },
+                fr: {
+                  text: "Une façon de faciliter la documentation des soins infirmiers.",
+                },
+              },
+            },
+            {
+              id: "9bd5af42-f837-4122-a3a8-b707895acd70-1",
+              text: "Eine großzügige Erweiterung der Pflegedokumentation.",
+              correct: false,
+              translations: {
+                en: {
+                  text: "A generous extension of nursing documentation.",
+                },
+                fr: {
+                  text: "Une extension généreuse de la documentation infirmière.",
+                },
+              },
+            },
+          ],
+          translations: {
+            en: {
+              text: "What is the new structural model and the SIS?",
+              explanation:
+                "<p>The SIS = Structured Information Collection is a component of the new structural model and is <strong>intended to make documentation in nursing easier</strong>.</p>",
+              media: null,
+              hint: null,
+            },
+            fr: {
+              text: "Qu'est-ce que le nouveau modèle structurel et le SIS ?",
+              explanation:
+                "<p>Le SIS = Structured Information Collection est une composante du nouveau modèle structurel et <strong>vise à faciliter la documentation dans le domaine des soins infirmiers</strong>.</p>",
+              media: null,
+              hint: null,
+            },
+          },
+        },
+        {
+          id: "6f515f45-f3f7-4fed-a96c-ebbb9c3a4ac2",
+          text: "Wie viele Phasen umfasst das neue Strukturmodell?",
+          explanation:
+            "<p>Die Grundstruktur des Strukturmodells umfasst <strong>4 Phasen</strong>:</p>\n<p>1. Strukturierte Informationssammlung</p>\n<p>2. Individuelle Maßnahmenplanung</p>\n<p>3. Pflegebericht</p>\n<p>4. Evaluation</p>",
+          media: null,
+          hint: null,
+          answers: [
+            {
+              text: "4 Phasen",
+              correct: true,
+              translations: {
+                fr: {
+                  text: "4 phases",
+                },
+              },
+            },
+            {
+              text: "13 Phasen",
+              correct: false,
+              translations: {
+                fr: {
+                  text: "13 Phases",
+                },
+              },
+            },
+          ],
+          translations: {
+            en: {
+              text: "",
+              explanation: "",
+              media: null,
+              hint: null,
+            },
+            fr: {
+              text: "Combien de phases y a-t-il dans le nouveau modèle structurel ?",
+              explanation:
+                "<p>La structure de base du modèle structurel comprend <strong>4 phases</strong>:</p>\n<p>1. collecte d'informations structurées</p>\n<p>2. le plan d'action individuel</p>\n<p>3. rapport de soins infirmiers</p>\n<p>4. évaluation</p>",
+              media: null,
+              hint: null,
+            },
+          },
+        },
+        {
+          id: "fd2e60e9-ed7c-43ae-a8bd-9b310ff7e336",
+          text: "Wie viele Themenfelder gibt es in der SIS?",
+          explanation:
+            "<p><strong>Es gibt 5 Themenfelder:</strong></p>\n<ul>\n  <li>Kognitive und kommunikative Fähigkeiten</li>\n  <li>Mobilität und Beweglichkeit</li>\n  <li>Krankheitsbezogene Anforderungen und Belastungen</li>\n  <li>Selbstversorgung</li>\n  <li>Leben in sozialen Beziehungen</li>\n</ul>\n<p><br></p>\n<ul>\n  <li><strong>Ergänzend gibt es noch ein sechstes Themenfeld:</strong> Haushaltsführung (bei ambulanter Pflege) bzw. Wohnen/Häuslichkeit (bei stationärer Pflege).</li>\n</ul>",
+          media: null,
+          hint: null,
+          answers: [
+            {
+              text: "Es gibt 5 Themenfelder",
+              correct: true,
+              translations: {
+                en: {
+                  text: "There are 5 topics",
+                },
+                fr: {
+                  text: "Il y a 5 sujets",
+                },
+              },
+            },
+            {
+              text: "Es gibt 13 Themenfelder",
+              correct: false,
+              translations: {
+                en: {
+                  text: "There are 13 topics",
+                },
+                fr: {
+                  text: "Il y a 13 sujets",
+                },
+              },
+            },
+            {
+              text: "Es gibt 24 Themenfelder",
+              correct: false,
+              translations: {
+                en: {
+                  text: "There are 24 topics",
+                },
+                fr: {
+                  text: "Il y a 24 sujets",
+                },
+              },
+            },
+            {
+              text: "Es gibt 2 Themenfelder",
+              correct: false,
+              translations: {
+                en: {
+                  text: "There are 2 topics",
+                },
+                fr: {
+                  text: "Il y a 2 sujets",
+                },
+              },
+            },
+          ],
+          translations: {
+            en: {
+              text: "How many subject areas are there in the SIS?",
+              explanation:
+                "<p><strong>There are 5 subject areas:</strong></p>\n<ul>\n  <li>Cognitive and communication skills</li>\n  <li>Mobility and agility</li>\n  <li>Disease-related demands and stresses</li>\n  <li>Self-care</li>\n  <li>Living in social relationships</li>\n</ul>\n<p><br></p>\n<ul>\n  <li>In<strong>addition, there is a sixth topic area:</strong> household management (in the case of outpatient care) or housing/homeliness (in the case of inpatient care).</li>\n</ul>",
+              media: null,
+              hint: null,
+            },
+            fr: {
+              text: "Combien de matières y a-t-il dans le SIS ?",
+              explanation: "",
+              media: null,
+              hint: null,
+            },
+          },
+        },
+        {
+          id: "24af498b-d0f4-4387-85bc-e6bb297744f3",
+          text: "Was ist die Strukturierte Informationssammlung SIS?",
+          explanation:
+            "<p>Die SIS ist eine Art <strong>Fragebogen</strong>, der ausgefüllt wird, um festzustellen, <strong>welche pflegerischen Maßnahmen notwendig und sinnvoll sind</strong>.</p>",
+          media: null,
+          hint: null,
+          answers: [
+            {
+              text: "Ein Fragebogen, um die pflegerischen Maßnahmen zu bestimmen.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "A questionnaire to determine nursing interventions.",
+                },
+                fr: {
+                  text: "Un questionnaire pour déterminer les interventions infirmières.",
+                },
+              },
+            },
+            {
+              text: "Ein Fragebogen, um den Wissensstand der Pflegekraft zu bestimmen.",
+              correct: false,
+              translations: {
+                en: {
+                  text: "A questionnaire to determine the level of knowledge of the nurse.",
+                },
+                fr: {
+                  text: "Un questionnaire pour déterminer le niveau de connaissance de l'infirmière.",
+                },
+              },
+            },
+          ],
+          translations: {
+            en: {
+              text: "What is the Structured Information Collection SIS?",
+              explanation:
+                "<p>The SIS is a kind of <strong>questionnaire</strong> that is filled out to determine <strong>which nursing measures are necessary and useful</strong>.</p>",
+              media: null,
+              hint: null,
+            },
+            fr: {
+              text: "Qu'est-ce que la collecte d'informations structurées SIS ?",
+              explanation:
+                "<p>Le SIS est une sorte de <strong>questionnaire</strong> que l'on remplit pour déterminer <strong>quelles mesures de soins infirmiers sont nécessaires et utiles</strong>.</p>",
+              media: null,
+              hint: null,
+            },
+          },
+        },
+        {
+          id: "001c4c15-776b-42ed-93dc-fd25e27cd049",
+          text: "Was folgt auf den Maßnahmenplan?",
+          explanation:
+            "<p>Nachdem aufgrund der Strukturierten Informationssammlung ein Maßnahmenplan erstellt ist, wird der Pflegebericht geschrieben. <strong>Das Berichteblatt zum Pflegebericht dokumentiert die Maßnahmen.</strong></p>",
+          media: null,
+          hint: null,
+          answers: [
+            {
+              text: "Das Berichteblatt zum Pflegebericht.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "The report sheet for the nursing report.",
+                },
+                fr: {
+                  text: "La feuille de rapport pour le rapport infirmier.",
+                },
+              },
+            },
+            {
+              text: "Die Evaluation.",
+              correct: false,
+              translations: {
+                en: {
+                  text: "Evaluation.",
+                },
+                fr: {
+                  text: "Évaluation.",
+                },
+              },
+            },
+          ],
+          translations: {
+            en: {
+              text: "What follows the action plan?",
+              explanation:
+                "<p></p>\n<p>After an action plan has been created based on the structured information collection, the nursing report is written. <strong>The report sheet for the nursing report documents the measures.</strong></p>",
+              media: null,
+              hint: null,
+            },
+            fr: {
+              text: "Qu'est-ce qui suit le plan d'action ?",
+              explanation: "",
+              media: null,
+              hint: null,
+            },
+          },
+        },
+        {
+          id: "c25570b5-b527-4677-bd19-1cc277747c3e",
+          text: "Wie oft wird das Berichteblatt zum Pflegebericht geführt?",
+          explanation:
+            "<p>Das Berichteblatt wird <strong>täglich</strong> geführt und protokolliert alles, was vom Maßnahmenplan abweicht. Akute Veränderungen können so schnell erkannt werden.</p>",
+          media: null,
+          hint: null,
+          answers: [
+            {
+              text: "Täglich",
+              correct: true,
+              translations: {
+                en: {
+                  text: "Daily",
+                },
+                fr: {
+                  text: "Quotidiennement",
+                },
+              },
+            },
+            {
+              text: "Wöchentlich",
+              correct: false,
+              translations: {
+                en: {
+                  text: "Weekly",
+                },
+                fr: {
+                  text: "Hebdomadaire",
+                },
+              },
+            },
+            {
+              text: "Monatlich",
+              correct: false,
+              translations: {
+                en: {
+                  text: "Monthly",
+                },
+                fr: {
+                  text: "Mensuel",
+                },
+              },
+            },
+            {
+              text: "Stündlich",
+              correct: false,
+              translations: {
+                en: {
+                  text: "Hourly",
+                },
+                fr: {
+                  text: "Horaire",
+                },
+              },
+            },
+          ],
+          translations: {
+            en: {
+              text: "How often is the report sheet kept for the nursing report?",
+              explanation:
+                "<p>The report sheet is kept <strong>daily</strong> and records everything that deviates from the action plan. Acute changes can thus be quickly identified.</p>",
+              media: null,
+              hint: null,
+            },
+            fr: {
+              text: "A quelle fréquence la feuille de rapport est-elle conservée pour le rapport infirmier ?",
+              explanation: "",
+              media: null,
+              hint: null,
+            },
+          },
+        },
+        {
+          id: "915e3351-6d58-44d4-bfbb-16e0bdb2e502",
+          text: "Was gehört in den Pflegebericht (Berichteblatt)?",
+          explanation:
+            "<ul>\n  <li><strong>Der aktuelle Zustand des Pflegebedürftigen</strong></li>\n  <li><strong>Mentale und körperliche Veränderungen</strong></li>\n  <li><strong>Geschehnisse und Vorkommnisse, die Relevanz für die pflegerische Versorgung haben</strong></li>\n  <li><strong>Verlaufsbeschreibungen, also etwa Gewichtsverläufe sowie Erfassung von Trinkmengen</strong></li>\n  <li><strong>Erfolge oder Misserfolge von Therapien</strong></li>\n  <li><strong>Die Wirkung von pflegerischen Maßnahmen</strong></li>\n</ul>\n<p><strong>außerdem noch:</strong></p>\n<ul>\n  <li>Reaktion des Pflegebedürftigen auf durchgeführte Pflegemaßnahmen</li>\n  <li>Ablehnung von Pflegemaßnahmen</li>\n  <li>Wünsche, Kritik und Beschwerden</li>\n  <li>Entfall von geplanten Maßnahmen</li>\n  <li>Durchführung von Pflegemaßnahmen, die vom Maßnahmenplan abweichen</li>\n</ul>",
+          media: null,
+          hint: null,
+          answers: [
+            {
+              text: "Der aktuelle Zustand des Pflegebedürftigen.",
+              correct: true,
+            },
+            {
+              text: "Mentale und körperliche Veränderungen.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "Mental and physical changes.",
+                },
+                fr: {
+                  text: "Changements mentaux et physiques.",
+                },
+              },
+            },
+            {
+              text: "Geschehnisse und Vorkommnisse, die Relevanz für die pflegerische Versorgung haben.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "Events and occurrences that are relevant to nursing care.",
+                },
+                fr: {
+                  text: "Les événements et occurrences qui sont pertinents pour les soins infirmiers.",
+                },
+              },
+            },
+            {
+              text: "Verlaufsbeschreibungen, also etwa Gewichtsverläufe sowie Erfassung von Trinkmengen.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "Descriptions of the course of the disease, e.g. weight courses and recording of drinking quantities.",
+                },
+                fr: {
+                  text: "Descriptions de l'évolution de la maladie, par exemple évolution du poids et enregistrement des quantités de boisson.",
+                },
+              },
+            },
+            {
+              text: "Erfolge oder Misserfolge von Therapien.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "Successes or failures of therapies.",
+                },
+                fr: {
+                  text: "Succès ou échecs des thérapies.",
+                },
+              },
+            },
+            {
+              text: "Reguläre Pflegemaßnahmen laut Maßnahmenplan.",
+              correct: false,
+              translations: {
+                en: {
+                  text: "Regular maintenance measures according to the action plan.",
+                },
+                fr: {
+                  text: "Mesures d'entretien régulier selon le plan d'action.",
+                },
+              },
+            },
+          ],
+          translations: {
+            en: {
+              text: "What belongs in the nursing report (report sheet)?",
+              explanation:
+                "<ul>\n  <li><strong>The current condition of the resident</strong></li>\n  <li><strong>Mental and physical changes</strong></li>\n  <li><strong>Events and occurrences that are relevant to nursing care</strong></li>\n  <li><strong>Descriptions of progress, e.g. weight progress and recording of drinking quantities</strong></li>\n  <li><strong>Successes or failures of therapies</strong></li>\n  <li><strong>The effect of nursing measures</strong></li>\n</ul>\n<p><strong>in addition</strong></p>\n<ul>\n  <li>Reaction of the resident to nursing measures carried out</li>\n  <li>Rejection of nursing measures</li>\n  <li>Wishes, criticism and complaints</li>\n  <li>Omission of planned measures</li>\n  <li>Implementation of care measures that deviate from the care plan</li>\n</ul>",
+              media: null,
+              hint: null,
+            },
+            fr: {
+              text: "Qu'est-ce qui doit figurer dans le rapport infirmier (feuille de rapport) ?",
+              explanation:
+                "<ul>\n  <li><strong>L'état actuel du résident</strong></li>\n  <li><strong>Changements mentaux et physiques</strong></li>\n  <li><strong>Les événements et occurrences qui sont pertinents pour les soins infirmiers</strong></li>\n  <li><strong>Descriptions des progrès, par exemple progression du poids et enregistrement des quantités de boisson</strong></li>\n  <li><strong>Succès ou échecs des thérapies</strong></li>\n  <li><strong>L'effet des mesures de soins infirmiers</strong></li>\n</ul>\n<p><strong>en outre</strong></p>\n<ul>\n  <li>Réaction du résident aux mesures de soins effectuées</li>\n  <li>Rejet des mesures de soins infirmiers</li>\n  <li>Souhaits, critiques et plaintes</li>\n  <li>Omission des mesures prévues</li>\n  <li>Mise en œuvre de mesures de soins qui s'écartent du plan de soins</li>\n</ul>",
+              media: null,
+              hint: null,
+            },
+          },
+        },
+        {
+          id: "095e8760-de5b-44e1-8e1a-78022f15db69",
+          text: "Was gehört auch in den Pflegebericht (Berichteblatt)?",
+          explanation:
+            "<ul>\n  <li><strong>Die Wirkung von pflegerischen Maßnahmen</strong></li>\n  <li><strong>Reaktion des Bewohners auf durchgeführte Pflegemaßnahmen</strong></li>\n  <li><strong>Ablehnung von Pflegemaßnahmen</strong></li>\n  <li><strong>Wünsche, Kritik und Beschwerden</strong></li>\n  <li><strong>Entfall von geplanten Maßnahmen</strong></li>\n  <li><strong>Durchführung von Pflegemaßnahmen, die vom Maßnahmenplan abweichen</strong></li>\n</ul>\n<p><strong>und außerdem:</strong></p>\n<ul>\n  <li>Der aktuelle Zustand des Bewohners</li>\n  <li>Mentale und körperliche Veränderungen</li>\n  <li>Geschehnisse und Vorkommnisse, die Relevanz für die pflegerische Versorgung haben</li>\n  <li>Verlaufsbeschreibungen, also etwa Gewichtsverläufe sowie Erfassung von Trinkmengen</li>\n  <li>Erfolge oder Misserfolge von Therapien</li>\n</ul>",
+          media: null,
+          hint: null,
+          answers: [
+            {
+              text: "Die Wirkung von pflegerischen Maßnahmen.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "The effect of nursing interventions.",
+                },
+              },
+            },
+            {
+              text: "Reaktion des Bewohners auf durchgeführte Pflegemaßnahmen.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "Resident's response to care interventions performed.",
+                },
+              },
+            },
+            {
+              text: "Ablehnung von Pflegemaßnahmen.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "Refusal of care.",
+                },
+              },
+            },
+            {
+              text: "Wünsche, Kritik und Beschwerden.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "Wishes, criticism and complaints.",
+                },
+              },
+            },
+            {
+              text: "Unplanmäßige Maßnahmen oder Entfall von geplanten Maßnahmen.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "Unplanned measures or omission of planned measures.",
+                },
+              },
+            },
+            {
+              text: "Beobachtungen, die keine Pflegerelevanz haben.",
+              correct: false,
+              translations: {
+                en: {
+                  text: "Observations that have no nursing relevance.",
+                },
+              },
+            },
+          ],
+          translations: {
+            en: {
+              text: "What also belongs in the nursing report (report sheet)?",
+              explanation:
+                "<ul>\n  <li><strong>The effect of nursing measures</strong></li>\n  <li><strong>Reaction of the resident to nursing measures carried out</strong></li>\n  <li><strong>Rejection of care measures</strong></li>\n  <li><strong>Wishes, criticism and complaints</strong></li>\n  <li><strong>Omission of planned measures</strong></li>\n  <li><strong>Implementation of care measures that deviate from the measure plan</strong></li>\n</ul>\n<p><strong>and in addition:</strong></p>\n<ul>\n  <li>The resident's current condition</li>\n  <li>Mental and physical changes</li>\n  <li>Events and occurrences that are relevant for nursing care</li>\n  <li>Progress descriptions, e.g. weight progressions and recording of drinking quantities</li>\n  <li>Successes or failures of therapies</li>\n</ul>",
+              media: null,
+              hint: null,
+            },
+            fr: {
+              text: "",
+              explanation:
+                "<ul>\n  <li><strong>L'effet des mesures de soins infirmiers</strong></li>\n  <li><strong>Réaction du résident aux mesures de soins effectuées</strong></li>\n  <li><strong>Rejet des mesures de soins</strong></li>\n  <li><strong>Souhaits, critiques et plaintes</strong></li>\n  <li><strong>Omission des mesures prévues</strong></li>\n  <li><strong>Mise en œuvre de mesures de soins qui s'écartent du plan de mesures</strong></li>\n</ul>\n<p><strong>et en plus :</strong></p>\n<ul>\n  <li>L'état actuel du résident</li>\n  <li>Changements mentaux et physiques</li>\n  <li>Les événements et occurrences qui sont pertinents pour les soins infirmiers</li>\n  <li>Description des progrès, par exemple progression du poids et enregistrement des quantités de boisson</li>\n  <li>Succès ou échecs des thérapies</li>\n</ul>",
+              media: null,
+              hint: null,
+            },
+          },
+        },
+        {
+          id: "c3fa1cd2-4103-44e8-8b24-f82256af0a3c",
+          text: "Was gehört NICHT in den Pflegebericht (Berichteblatt)?",
+          explanation:
+            "<ul>\n  <li>Reguläre Pflegemaßnahmen laut Maßnahmenplan.</li>\n  <li>Beobachtungen, die keine Pflegerelevanz haben.</li>\n  <li>Medizinische Diagnosen (Macht nur der Arzt)</li>\n</ul>",
+          media: null,
+          hint: null,
+          answers: [
+            {
+              text: "Reguläre Pflegemaßnahmen laut Maßnahmenplan.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "Regular maintenance measures according to the action plan.",
+                },
+                fr: {
+                  text: "Mesures d'entretien régulier selon le plan d'action.",
+                },
+              },
+            },
+            {
+              text: "Beobachtungen, die keine Pflegerelevanz haben.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "Observations that have no nursing relevance.",
+                },
+                fr: {
+                  text: "Les observations qui n'ont pas de pertinence pour les soins infirmiers.",
+                },
+              },
+            },
+            {
+              text: "Medizinische Diagnosen (Macht nur der Arzt).",
+              correct: true,
+            },
+            {
+              text: "Die Wirkung von pflegerischen Maßnahmen.",
+              correct: false,
+              translations: {
+                en: {
+                  text: "The effect of nursing interventions.",
+                },
+                fr: {
+                  text: "L'effet des interventions infirmières.",
+                },
+              },
+            },
+          ],
+          translations: {
+            en: {
+              text: "What does NOT belong in the nursing report (report sheet)?",
+              explanation:
+                "<ul>\n  <li>Regular maintenance measures according to the action plan.</li>\n  <li>Observations that are not relevant to nursing.</li>\n  <li>Medical diagnoses (only made by the doctor)</li>\n</ul>",
+              media: null,
+              hint: null,
+            },
+            fr: {
+              text: "Qu'est-ce qui n'a PAS sa place dans le rapport infirmier (feuille de rapport) ?",
+              explanation: "",
+              media: null,
+              hint: null,
+            },
+          },
+        },
+        {
+          id: "6c5f55fe-a5b1-45cf-b99b-81c4510d093c",
+          text: "Wie oft wird dokumentiert?",
+          explanation:
+            "<ul>\n  <li>Bei jedem pflegerelevanten Ereignis.</li>\n  <li>Mindestens einmal die Woche.</li>\n</ul>",
+          media: null,
+          hint: null,
+          answers: [
+            {
+              text: "Bei jedem pflegerelevanten Ereignis.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "For any nursing-related event.",
+                },
+                fr: {
+                  text: "Pour tout événement lié aux soins infirmiers.",
+                },
+              },
+            },
+            {
+              text: "Mindestens einmal die Woche.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "At least once a week.",
+                },
+                fr: {
+                  text: "Au moins une fois par semaine.",
+                },
+              },
+            },
+            {
+              text: "Einmal monatlich.",
+              correct: false,
+              translations: {
+                en: {
+                  text: "Once a month.",
+                },
+                fr: {
+                  text: "Une fois par mois.",
+                },
+              },
+            },
+            {
+              text: "Einmal jährlich.",
+              correct: false,
+              translations: {
+                en: {
+                  text: "Once a year.",
+                },
+                fr: {
+                  text: "Une fois par an.",
+                },
+              },
+            },
+          ],
+          translations: {
+            en: {
+              text: "How often is documentation done?",
+              explanation:
+                "<ul>\n  <li>For every nursing-related event.</li>\n  <li>At least once a week.</li>\n</ul>",
+              media: null,
+              hint: null,
+            },
+            fr: {
+              text: "Quelle est la fréquence de la documentation ?",
+              explanation:
+                "<ul>\n  <li>Pour chaque événement lié aux soins infirmiers.</li>\n  <li>Au moins une fois par semaine.</li>\n</ul>",
+              media: null,
+              hint: null,
+            },
+          },
+        },
+        {
+          id: "39815279-f0b6-4e7c-8080-26980311d5a8",
+          text: "Was ist von besonderer Bedeutung beim Ausfüllen von Feld B?",
+          explanation:
+            "<p>Dass die Sichtweise des Pflegebedürftigen wortgetreu wieder gegeben wird.</p>",
+          media: null,
+          hint: null,
+          answers: [
+            {
+              text: "Dass die Sichtweise des Pflegebedürftigen wortgetreu wieder gegeben wird.",
+              correct: true,
+            },
+            {
+              text: "Dass nur die Interpretation der Pflegekraft festgehalten wird.",
+              correct: false,
+              translations: {
+                en: {
+                  text: "That only the nurse's interpretation is recorded.",
+                },
+                fr: {
+                  text: "Que seule l'interprétation de l'infirmière est enregistrée.",
+                },
+              },
+            },
+          ],
+          translations: {
+            en: {
+              text: "What is of particular importance when completing box B?",
+              explanation:
+                "<p>That the resident's point of view is given verbatim.</p>",
+              media: null,
+              hint: null,
+            },
+            fr: {
+              text: "Qu'est-ce qui est particulièrement important pour remplir la case B ?",
+              explanation:
+                "<p>Que le point de vue du résident est donné textuellement.</p>",
+              media: null,
+              hint: null,
+            },
+          },
+        },
+        {
+          id: "80efc838-483b-41ef-896e-0002189569a4",
+          text: "Wer schreibt die SIS?",
+          explanation:
+            "<p><strong>Die SIS kann nur von einer hierin geschulten Pflegefachkraft angewandt werden.</strong> Die Pflegefachkraft beherrscht den Pflegeprozess, hat kommunikative Fähigkeiten und bringt Erfahrungen in der Risikoerfassung und Beurteilung kritischer Situationen mit.</p>",
+          media: null,
+          hint: null,
+          answers: [
+            {
+              text: "Die SIS kann nur von einer hierin geschulten Pflegefachkraft angewandt werden.",
+              correct: true,
+              translations: {
+                en: {
+                  text: "The SIS can only be used by a trained nurse.",
+                },
+                fr: {
+                  text: "Le SIS ne peut être utilisé que par une infirmière formée.",
+                },
+              },
+            },
+            {
+              text: "Jede pflegende Person darf die SIS schreiben.",
+              correct: false,
+              translations: {
+                en: {
+                  text: "Any carer may write the SIS.",
+                },
+                fr: {
+                  text: "Tout soignant peut écrire le SIS.",
+                },
+              },
+            },
+          ],
+          translations: {
+            en: {
+              text: "Who writes the SIS?",
+              explanation:
+                "<p><strong>The SIS can only be applied by a trained nurse.</strong> The nurse has mastered the nursing process, has communication skills and is experienced in risk assessment and the evaluation of critical situations.</p>",
+              media: null,
+              hint: null,
+            },
+            fr: {
+              text: "Qui écrit le SIS ?",
+              explanation:
+                "<p><strong>Le SIS ne peut être appliqué que par une infirmière formée.</strong> L'infirmière maîtrise le processus de soins infirmiers, possède des compétences en communication et a de l'expérience dans l'évaluation des risques et des situations critiques.</p>",
+              media: null,
+              hint: null,
+            },
+          },
+        },
+      ],
+      translations: {
+        en: {
+          name: "Structured information collection SIS",
+        },
+        fr: {
+          name: "Collecte d'informations structurées SIS",
+        },
+      },
+      points: 1,
+      time: 5,
+      link: "wiki://06_basismodul/01_dokumen.md",
+    },
+  ],
+  translations: {
+    en: {
+      name: "Documentation",
+    },
+    fr: {
+      name: "Documentation",
+    },
+  },
+};

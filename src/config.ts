@@ -1,13 +1,13 @@
 import z from "https://deno.land/x/zod@v3.22.4/index.ts";
 
-const UserSchema = z.object({
+export const UserSchema = z.object({
   login: z.string(),
   password: z.string(),
 });
 
 export type LoginUser = z.infer<typeof UserSchema>;
 
-const TaskSchema = z.array(
+export const TaskSchema = z.array(
   z.union([
     z.object({
       CheckSpecificTrainingProgress: z.object({
@@ -36,7 +36,7 @@ const TaskSchema = z.array(
 
 export type Tasks = z.infer<typeof TaskSchema>;
 
-const ConfigSchema = z.object({
+export const ConfigSchema = z.object({
   url: z.string(),
   num_workers: z.array(z.number()),
   fetchTimeoutInMs: z.number(),
