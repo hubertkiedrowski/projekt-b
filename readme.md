@@ -7,7 +7,25 @@ flags:
 -c path to config.ts
 
 jonathan maximale abweichung innerhalb der runs prozentual (wird in der config eingestellt) und während der auswertung angezeigen
-jonathan plotten in vorhandenes projekt übertragen(Schwierigkeit deno und node zu verbinden)
-<https://entwickler.de/javascript/deno-node-javascript-framework-npm>
 
-halbwegs akzeptable tests schreiben
+Testen:
+
+Helper:
+  getRandomNumber erledigt
+  delay erledigt
+  getRandomString erledigt
+  createIndividualWorkerConfigs erledigt
+
+UserApi:
+  login     erledigt
+  get       erledigt
+  post      funktioniert nicht richtig
+
+createEntryReport
+
+settasks         reicht wenn man testet das die ifs passen, recht ergibt sich aus halbwegs aus dem rest
+getTraininginfoSpecificTopic
+getQuestion
+submitQuestion
+
+copilot kann die grundstruktur ziemlich gut generieren
