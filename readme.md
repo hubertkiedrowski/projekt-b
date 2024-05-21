@@ -9,7 +9,8 @@ Beispielaufruf des Benchmarktestes:
 Unittests:
   deno test -A 
 
-readme auf vordermann bringen
+readme auf vordermann bringen z.b.
+ https://github.com/hubertkiedrowski/TypeStream/blob/main/README.md
 
 
 zu testen:
