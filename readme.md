@@ -13,8 +13,5 @@ readme auf vordermann bringen
 
 
 zu testen:
-  settasks         reicht wenn man testet das die ifs passen, recht ergibt sich aus halbwegs aus dem rest
   getTraininginfoSpecificTopic
-  submitQuestion
-
 
