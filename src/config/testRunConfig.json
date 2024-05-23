@@ -6,7 +6,7 @@
     4
   ],
   "createNewWorkers": false,
-  "allowedDeviationPercentBetweenRuns": 20,
+  "allowedDeviationPercent": 20,
   "tasks": [
     {
       "measureTTFB": {
