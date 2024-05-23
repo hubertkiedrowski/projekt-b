@@ -1,22 +1,48 @@
 # Webapp Performancetest
 
-## Generating Output
+# Prerequisite
 
-```bash
-deno run -A <path to > -c src/config/testRunConfig.json -p "progress/topics/c6906727-fbd8-419a-809e-4a24de352d0d/trainings/26408628-a743-4f28-9d36-e4f7b4bcf636/questionnaires/4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7/questions" -d content/basisschulungen/dokumentation.json
+```
+sudo apt update
+sudo apt install software-properties-common -y
 ```
 
-## Examplecall
+## Add custom APT repository
+
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+```
+
+Press `ENTER` to confirm adding repository.
+
+## Install Python 3.10
+
+```
+sudo apt install python3.10 python3.10-venv python3.10-dev
+python3 --version
+```
+
+## Run with Virtual ENV
+
+```
+python3.10 -m venv ./venv/
+source venv/bin/activate
+```
+
+# Running benchmark test / generating record
 
 ```bash
 deno run -A src/main.ts -c src/config/testRunConfig.json -p "progress/topics/c6906727-fbd8-419a-809e-4a24de352d0d/trainings/26408628-a743-4f28-9d36-e4f7b4bcf636/questionnaires/4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7/questions" -d content/basisschulungen/dokumentation.json
 ```
 
-## Flags
+Flags
 
 -d path to dokumentation.json <br>
 -p path to training ,look example <br>
 -c path to config.ts
+
+Record will be saved at ./outputdata
 
 # Webapp Performancetest Plotter
 
