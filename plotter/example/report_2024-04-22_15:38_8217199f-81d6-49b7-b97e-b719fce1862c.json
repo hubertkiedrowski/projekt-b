@@ -1,0 +1,481 @@
+{
+   "uuid": "8217199f-81d6-49b7-b97e-b719fce1862b",
+   "reportStartTime": 1713793125376,
+   "config": {
+      "url": "https://preview.carely-app.de",
+      "num_workers": 3,
+      "num_attempts": 5,
+      "fetchTimeoutInMs": 5000,
+      "probabilityOfAnsweringWrong": 10,
+      "CheckSpecificTrainingProgress": {
+         "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d"
+      }
+   },
+   "results": {
+      "44a8c968-c6ad-4b83-a486-eb91e2eab3a7": [
+         {
+            "ident": null,
+            "description": "getQuestion InfoTopics",
+            "timings": {
+               "startTime": 1713793125377,
+               "endTime": 1713793125804,
+               "duration": 427
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793125806,
+               "endTime": 1713793125831,
+               "duration": 25
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "6f515f45-f3f7-4fed-a96c-ebbb9c3a4ac2"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793125832,
+               "endTime": 1713793125872,
+               "duration": 40
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793125872,
+               "endTime": 1713793125924,
+               "duration": 52
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "915e3351-6d58-44d4-bfbb-16e0bdb2e502"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793125925,
+               "endTime": 1713793125986,
+               "duration": 61
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793125987,
+               "endTime": 1713793126034,
+               "duration": 47
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "39815279-f0b6-4e7c-8080-26980311d5a8"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793126035,
+               "endTime": 1713793126090,
+               "duration": 55
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793126090,
+               "endTime": 1713793126135,
+               "duration": 45
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "c25570b5-b527-4677-bd19-1cc277747c3e"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793126154,
+               "endTime": 1713793126286,
+               "duration": 132
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793126286,
+               "endTime": 1713793126429,
+               "duration": 143
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "9bd5af42-f837-4122-a3a8-b707895acd70"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793126429,
+               "endTime": 1713793126490,
+               "duration": 61
+            }
+         },
+         {
+            "ident": null,
+            "description": "getQuestion InfoSpecificTopic",
+            "timings": {
+               "startTime": 1713793126594,
+               "endTime": 1713793126696,
+               "duration": 102
+            }
+         }
+      ],
+      "1259f8c5-4439-4180-864c-8289153554a0": [
+         {
+            "ident": null,
+            "description": "getQuestion InfoTopics",
+            "timings": {
+               "startTime": 1713793125377,
+               "endTime": 1713793125804,
+               "duration": 427
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793125805,
+               "endTime": 1713793125831,
+               "duration": 26
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "095e8760-de5b-44e1-8e1a-78022f15db69"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793125831,
+               "endTime": 1713793125874,
+               "duration": 43
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793125874,
+               "endTime": 1713793125924,
+               "duration": 50
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "095e8760-de5b-44e1-8e1a-78022f15db69"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793125924,
+               "endTime": 1713793125988,
+               "duration": 64
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793125988,
+               "endTime": 1713793126034,
+               "duration": 46
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "39815279-f0b6-4e7c-8080-26980311d5a8"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793126034,
+               "endTime": 1713793126089,
+               "duration": 55
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793126089,
+               "endTime": 1713793126154,
+               "duration": 65
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "24af498b-d0f4-4387-85bc-e6bb297744f3"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793126154,
+               "endTime": 1713793126283,
+               "duration": 129
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793126283,
+               "endTime": 1713793126429,
+               "duration": 146
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "c3fa1cd2-4103-44e8-8b24-f82256af0a3c"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793126439,
+               "endTime": 1713793126490,
+               "duration": 51
+            }
+         },
+         {
+            "ident": null,
+            "description": "getQuestion InfoSpecificTopic",
+            "timings": {
+               "startTime": 1713793126593,
+               "endTime": 1713793126696,
+               "duration": 103
+            }
+         }
+      ],
+      "372088a9-8443-47e4-ad80-b6715ae16add": [
+         {
+            "ident": null,
+            "description": "getQuestion InfoTopics",
+            "timings": {
+               "startTime": 1713793125378,
+               "endTime": 1713793125846,
+               "duration": 468
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793125846,
+               "endTime": 1713793125898,
+               "duration": 52
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "80efc838-483b-41ef-896e-0002189569a4"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793125901,
+               "endTime": 1713793125960,
+               "duration": 59
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793125960,
+               "endTime": 1713793126011,
+               "duration": 51
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "915e3351-6d58-44d4-bfbb-16e0bdb2e502"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793126011,
+               "endTime": 1713793126059,
+               "duration": 48
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793126059,
+               "endTime": 1713793126110,
+               "duration": 51
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "9bd5af42-f837-4122-a3a8-b707895acd70"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793126110,
+               "endTime": 1713793126186,
+               "duration": 76
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793126186,
+               "endTime": 1713793126390,
+               "duration": 204
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "6f515f45-f3f7-4fed-a96c-ebbb9c3a4ac2"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793126390,
+               "endTime": 1713793126458,
+               "duration": 68
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7"
+            },
+            "description": "getQuestion",
+            "timings": {
+               "startTime": 1713793126458,
+               "endTime": 1713793126516,
+               "duration": 58
+            }
+         },
+         {
+            "ident": {
+               "topicId": "c6906727-fbd8-419a-809e-4a24de352d0d",
+               "trainingId": "26408628-a743-4f28-9d36-e4f7b4bcf636",
+               "questionnaireId": "4ec93c9d-53ac-4769-9ec0-d1c7220ed0c7",
+               "questionId": "095e8760-de5b-44e1-8e1a-78022f15db69"
+            },
+            "description": "postAnswer",
+            "timings": {
+               "startTime": 1713793126530,
+               "endTime": 1713793126623,
+               "duration": 93
+            }
+         },
+         {
+            "ident": null,
+            "description": "getQuestion InfoSpecificTopic",
+            "timings": {
+               "startTime": 1713793126746,
+               "endTime": 1713793126801,
+               "duration": 55
+            }
+         }
+      ]
+   }
+}
