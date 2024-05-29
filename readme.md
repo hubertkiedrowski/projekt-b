@@ -69,5 +69,10 @@ The `./example` folder contains a [Boxplot](./example/Boxplot-report_2024-04-22_
 To Run Programm, you need to install the Dependencys are found in [requirements.txt](./requirements.txt)
 
 ```bash
-python3 ./plotter/plotData.py -f <Path to webperformance-tester json outputfile>
+pip install -r ./plotter/requirement.txt
+
+```
+
+```bash
+python3 plotData.py -f <Path to webperformance-tester json outputfile>
 ```
