@@ -14,8 +14,9 @@ def readData(fileName):
     descriptions = []
     
     global_index = 1
-    for user_id, tasks in data['results'].items():
+    for key, tasks in data['results'].items():
         for task in tasks:
+            
             startTimes.append(task['timings']['startTime'])
             durations.append(task['timings']['duration'])
             descriptions.append(task['description'])
@@ -120,7 +121,7 @@ def createComparisonTable(data_frames, file_names):
         html_content += f"<h2>Table for {fileName}</h2>"
         html_content += styled_table.to_html(index=True)
 
-    with open("output.html", "w") as html_file:
+    with open("comparison-table.html", "w") as html_file:
         html_file.write(html_content)
 
 
@@ -144,12 +145,14 @@ def main():
             outputFileName = path[1].replace(".json", ".png")
             plotDataLine(data, outputFileName)
             plotDataBox(data, outputFileName)
+            createComparisonTable(data_frames, file_names)
             print(f"Plot saved for {input_file} as {outputFileName}")
+            
         except FileNotFoundError:
             print("File not Saved")
     
     
-    createComparisonTable(data_frames, file_names)
+    
 
 
 if __name__ == "__main__":
