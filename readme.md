@@ -73,7 +73,9 @@ To Run Programm, you need to install the Dependencys are found in [requirements.
 pip install -r ./plotter/requirement.txt
 
 ```
-
+To Run Programm:
 ```bash
-python3 plotData.py -f <Path to webperformance-tester json outputfile>
+python3 plotData.py -f <Path to file1 file2 file3>
+bsp.
+python3 plotter/plotData.py -f /home/jonathan/Uni/S5/ProjektB/projekt-b/plotter/example/report_2024-04-22_15:38_8217199f-81d6-49b7-b97e-b719fce1862b.json /home/jonathan/Uni/S5/ProjektB/projekt-b/plotter/example/report_2024-04-22_15:38_8217199f-81d6-49b7-b97e-b719fce1862c.json
 ```
