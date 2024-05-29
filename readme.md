@@ -50,12 +50,13 @@ Record will be saved at ./outputdata
 
 # Webapp Performancetest Plotter
 
-The Programm Plots the .json created by the web-app-performancetester.
+The Programm Plots the .json created by the web-app-performancetester and creates a highlighted table to compare values.
 
 It creates 2 .png files:
 
 - sequential line plot
 - boxplot
+- Comparison Table
 
 it also opens a interactive boxplot in the browser where you can see
 The exact Max/Min/Median

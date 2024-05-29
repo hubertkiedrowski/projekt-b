@@ -120,8 +120,6 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-# Except the specific zip file
-!project-b.zip
 # Environments
 .env
 .venv
