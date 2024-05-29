@@ -48,17 +48,18 @@ Record will be saved at ./outputdata
 
 The Programm Plots the .json created by the web-app-performancetester.
 
-It creates 2 .png files:
+It creates 2 .png files and a html:
 
-- sequential line plot
-- boxplot
+- Sequential line plot
+- Boxplot
+- Comparison Table
 
 it also opens a interactive boxplot in the browser where you can see
 The exact Max/Min/Median
 
 ## Example Output
 
-The `./example` folder contains a [Boxplot](./example/Boxplot-report_2024-04-22_15:38_8217199f-81d6-49b7-b97e-b719fce1862b.png) and a [Lineplot](./example/Lineplot-report_2024-04-22_15:38_8217199f-81d6-49b7-b97e-b719fce1862b.png) generated based on [exampleData](./example/report_2024-04-22_15:38_8217199f-81d6-49b7-b97e-b719fce1862b.json)
+The `./example` folder contains a [Boxplot](./example/Boxplot-report_2024-04-22_15:38_8217199f-81d6-49b7-b97e-b719fce1862b.png) and a [Lineplot](./example/Lineplot-report_2024-04-22_15:38_8217199f-81d6-49b7-b97e-b719fce1862b.png), a [ComparisonTable](./example/comparison-table.html) generated based on [exampleData](./example/report_2024-04-22_15:38_8217199f-81d6-49b7-b97e-b719fce1862b.json)
 
 ## Generating output
 
