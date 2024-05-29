@@ -2098,9 +2098,6 @@
     "https://raw.githubusercontent.com/webui-dev/deno-webui/3ba9bbc9ffd9de870a12b946a7515fa7ede7d38e/src/webui.ts": "d2de9512d86094a50a7f357a4221feda2211de29720b40490dc0233dabf185df"
   },
   "workspace": {
-    "dependencies": [
-      "jsr:@deno/graph@^0.69.10"
-    ],
     "packageJson": {
       "dependencies": [
         "npm:@types/jest@^29.5.12",

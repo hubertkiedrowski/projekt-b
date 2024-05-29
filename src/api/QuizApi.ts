@@ -87,7 +87,7 @@ export class QuizApi {
     private readonly apiUser: ApiUser,
     private readonly reporter: Reporter,
     private timeoutMs: number = config.fetchTimeoutInMs || 9999
-  ) {}
+  ) { }
 
   static extractQuestionnaireIdentFromPath(path: string): QuestionnaireIdent {
     const pathElements = path.split("/");
@@ -135,10 +135,8 @@ export class QuizApi {
   }
 
   async getTraininginfoTopics(attempts: number) {
-    //TODO check iff attempts work
     while (attempts > 0) {
       const { promise, timings: postTimings } = TimePromise(() =>
-        // Timings gathered here
         this.apiUser.get("/progress/topics", this.timeoutMs)
       );
 
@@ -159,7 +157,6 @@ export class QuizApi {
     topicIdent: TopicIdent,
     timeout: number
   ) {
-    //TODO check iff attempts work
 
     while (num_attempts > 0) {
       const _infoTrainingProgressSpecificTraining = await apiUser.get(
